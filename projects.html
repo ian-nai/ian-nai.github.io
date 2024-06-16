@@ -14,59 +14,138 @@
 			<span class="divider"></span>
 			<li><a href="/projects.html" class="page">Projects</a></li>
 			<span class="divider"></span>
-			<li><a href="https://www.github.com/ian-nai" class="contact">GitHub</a></li>
+			<li><a href="https://www.github.com/ian-nai" class="top_link" target="blank">GitHub</a></li>
 			<span class="divider"></span>
-			<li><a href="https://www.linkedin.com/in/ian-goodale" class="contact">LinkedIn</a></li>
-			<span class="divider"></span>
-			<li><a href="mailto:iangoodale@utexas.edu" class="contact">Contact</a></li>
+			<li><a href="https://www.linkedin.com/in/ian-goodale" class="top_link" target="blank">LinkedIn</a></li>
 		</ul>
 
-
-			<h1>Coding </h1>
+			<p2>Click on a button below to display a select sample of my projects written in that programming language.</p2>
+			<br>
+			<br>
+			  <div class="w3-bar w3-black">
+				<button class="button" onclick="openTab('Python')">Python</button>
+				<button class="button" onclick="openTab('Rust')">Rust</button>
+				<button class="button" onclick="openTab('JavaScript/HTML/CSS')">JavaScript/HTML/CSS</button>
+				<button class="button" onclick="openTab('Raku')">Raku</button>
+				<button class="button" onclick="openTab('Project Management')">Project Management and Design</button>
+			  </div>
+			  
+			  <div id="Python" class="tab_type">
+				<br>
+				<h1>Python</h1>
 
 				<p>Domovyk - <a href="https://github.com/ian-nai/domovyk" target="_blank">View on GitHub</a></p>
-				<p2>A Python package to transliterate various Cyrillic alphabets to and from the Latin alphabet using the American Library Association-Library of Congress Romanization tables.</p2>
-
-				<p>Text Analysis in Rust - <a href="https://github.com/ian-nai/rust_readability" target="_blank">View on GitHub</a></p>
-				<p2>A collection of Rust crates that perform three text analysis methods: <a href="https://github.com/ian-nai/rust_readability">readability analysis</a>, <a href="https://github.com/ian-nai/rust_stylometry">stylometry</a>, and <a href="https://github.com/ian-nai/rust_lemmatizer">lemmatization</a>.</p2>
-        <br />
+				<p2>A Python package to transliterate various Cyrillic alphabets to and from the Latin alphabet using the American Library Association-Library of Congress Romanization tables. Domovyk addresses some limitations in existing transliteration packages, providing multilingual functionality, support for composite Unicode characters, and support for languages not addressed in other packages, such as Church Slavonic and Carpatho-Rusyn. This package aims to increase the accessibility of transliteration technologies for users working in these languages, focusing on use cases that require thorough and accurate transliteration.</p2>
+			    <br>
 				<p>Rozha - <a href="https://github.com/ian-nai/rozha" target="_blank">View on GitHub</a></p>
-				<p2>A Python package to simplify and streamline a number of natural language processing processes and methods for a wide variety of languages, empowering users to use NLP on both non-English and English texts.</p2>
-
+				<p2>Rozha is a Python package to simplify and streamline a number of natural language processing processes and methods for a wide variety of languages, empowering users to use NLP on both non-English and English texts.</p2>
+				<br>
+				<p> Word Goblin - <a href="https://github.com/ian-nai/wordgoblin" target="_blank">View on GitHub</a></p>
+				<p2>WordGoblin is a simple, lightweight word finder package that returns words containing letters specified by the user. English is supported within the package, and custom dictionaries or lists of words can easily be loaded to work with other languages.</p2>
+		        <br>
+				<p> Seshata - <a href="https://github.com/ian-nai/seshata" target="_blank">View on GitHub</a></p>
+				<p2>Seshata is a streamlined, console-based journal/database program written in Python. Allows for the storage of images as well as text in the SQL database (and can print stored images in the console).</p2>
+				<br>
 				<p> Non-English Natural Language Processing - <a href="https://github.com/ian-nai/Non-English-NLP-Tutorial" target="_blank">View on GitHub</a></p>
-				<p2>I coded a suite of GitHub repositories dedicated to performing natural language processing (NLP) tasks on Russian and French texts. The tutorial portion of the suite, linked above, contains Jupyter notebooks with walkthroughs and sample code for performing analysis on non-English texts using various NLP methods, including Python scripts to clean, analyze, and visualize text. They were designed to accompany a workshop offered by the University of Texas Libraries.</p2>
-
+				<p2>A suite of GitHub repositories dedicated to performing natural language processing (NLP) tasks on Russian and French texts. The tutorial portion of the suite, linked above, contains Jupyter notebooks with walkthroughs and sample code for performing analysis on non-English texts using various NLP methods, including Python scripts to clean, analyze, and visualize text. They were designed to accompany a workshop offered by the University of Texas Libraries.</p2>
+				<br>
 				<p>PyGallica - <a href="https://github.com/ian-nai/PyGallica" target="_blank">View on GitHub</a> </p>
-				<p2>I coded a Python wrapper for the National Library of France's digital library platform, Gallica. My wrapper is featured on the official Gallica site, and can also be found on my GitHub account at the link above.</p2>
-
+				<p2>A Python wrapper for the National Library of France's digital library platform, Gallica. My wrapper is featured on the official Gallica site, and can also be found on my GitHub account at the link above.</p2>
+				<br>
 				<p>The Simple Web Archiver - <a href="https://github.com/ian-nai/Simple-Web-Archiver" target="_blank">View on GitHub</a> </p>
-				<p2>I coded an easy-to-use, GUI web archiving tool in Python. Pages can be downloaded as files (HTML, CSS, etc) or as WARCs. Images from the pages can also be downloaded.</p2>
-
+				<p2>An easy-to-use, GUI web archiving tool in Python. Pages can be downloaded as files (HTML, CSS, etc) or as WARCs. Images from the pages can also be downloaded.</p2>  
+			    <br>
+				<p>Europeana Full Text in Python - <a href="https://github.com/ian-nai/Europeana-Full-Text-in-Python" target="_blank">View on GitHub</a> </p>
+				<p2>A variety of Python scripts to assist with searching and downloading full text records via the Europeana APIs, including newspaper records. These scripts allow you to search records in Europeana, parse the JSON returned to obtain various metadata, and download full text if it's available. The code was featured on the Europeana site, and is hosted on my GitHub account at the link above.</p2>
+			</div>
+			  
+			  <div id="Rust" class="tab_type" style="display:none">
+				<br>
+				<h1>Rust</h1>
+                <br>
+				<p>Rust Readability - <a href="https://github.com/ian-nai/rust_readability" target="_blank">View on GitHub</a></p>
+				<p2>A package to assess the complexity of texts using a variety of readability formulas, written in Rust. The crate includes implementations of the Lix, Rix, Flesch, Flesch-Kincaid, Coleman-Liau, and Automated Readability Index methods.</p2> 
+			    <br>
+				<p>Rust Stylometry - <a href="https://github.com/ian-nai/rust_stylometry" target="_blank">View on GitHub</a></p>
+				<p2>A package to perform stylometry operations on given texts. The crate includes implementations of Mendenhall's graphing of word lengths, the Kilgariff chi-squared algorithm, and an algorithm to find words that occur in only one text out of two being compared (hapax legomena).</p2>
+			    <br>
+				<p>Rust Lemmatizer - <a href="https://github.com/ian-nai/rust_lemmatizer" target="_blank">View on GitHub</a></p>
+				<p2>A lemmatizing package written in Rust. The crate supports English lemmatization out-of-the-box, but can easily be used with other languages if provided an appropriate lemma list.</p2>  
+			</div>
+			  <div id="JavaScript/HTML/CSS" class="tab_type" style="display:none">
+				<br>
+				<h1>JavaScript/HTML/CSS</h1>
+				<br>
 				<p>OCR in Browser - <a href="https://github.com/ian-nai/In-Browser-OCR" target="_blank">View on GitHub</a> </p>
 				<p2>A web app for performing OCR on images within your browser using Tesseract.js and client-side Javascript. Upload one or more images, select the language of the document(s), and then view and edit the OCR-ed text in your browser (or save it as a .txt file).</p2>
+			    <br>
+				<p>Flask CRUD NLP - <a href="https://github.com/ian-nai/Flask-CRUD-NLP" target="_blank">View on GitHub</a> </p>
+				<p2>A Flask site that allows users to create, update, and delete posts in a database, as well as perform basic NLP tasks on the posts. The app allows for PDF uploads, and will perform OCR on the PDFs and add the text to the database. NLP tasks include sentiment analysis (on individual posts or all posts combined as one text), returning word counts and average word lengths for posts, and generating a word cloud from the posts.</p2>
+                <p>Minimal Computing Sites for European Studies</p>
+				<br>
+				<p2>A suite of minimal computing sites highlighting varied aspects of history related to European Studies:</p2>
+				<br>
+				<br>
+				<p2><a href="https://ian-nai.github.io/sukhareva/" target="blank">Discovering Sukhareva</a></p2>
+				<p2>This website is about Grunya Efimovna Sukhareva, a pioneering researcher into autism. As the earliest known person to document autism in children, her work has been instrumental to the understanding and study of autism within scientific literature. Includes Sukhareva's pioneering early research articles in Russian and German, bibliographies of additional resources on her life and work, neurodiversity, and the history of autism, and a timeline of key moments in early autism research.</p2>
+				<br>
+				<br>
+				<p2><a href="https://ian-nai.github.io/batailles_journals/index.html" target="blank">Bataille's Journals</a></p2>
+				<p2>This site aims to highlight Bataille's editorial work, making the full runs of Acéphale and Documents available as easily browseable and downloadable PDFs. The .txt files from the OCRed text are provided in the hope that they may be of use to anyone interested in performing textual analysis on the journals.</p2>
+				<br>
+				<br>
+				<p2><a href="https://ian-nai.github.io/Negritude-UT-Austin/" target="blank">The Négritude Movement</a></p2>
+				<p2>This website collects resources and information on the Négritude movement, an anti-colonial cultural and political movement founded in Paris in the 1930s. The movement, developed mainly by francophone intellectuals, writers, and politicians of the African diaspora, aimed at cultivating and promoting Black art, culture, and consciousness as a form of resistance against colonialism and racism.</p2>
+				<br>
+				<br>
+				<p2><a href="https://europeanstudiessites.github.io/Ukrainian_Anarchist_Movement/" target="blank">The Ukrainian Anarchist Movement</a></p2>
+				<p2>This site aims to serve as a hub for the scholarly and academic study of anarchism in Ukraine, highlighting the history of the movement from its origins in the 19th-century through its expression in the Makhnovist movement of the early 20th-century. Includes an interactive timeline and bibliographies of online and print resources.</p2>
+				<br>
+				<br>
+				<p2><a href="https://github.com/ian-nai/krupskaya" target="blank">Nadezhda Krupskaya Online</a></p2>
+\				<p2>An online home for English-language resources relating to Nadezhda Krupskaya, Deputy Education Commissar of the Soviet Union from 1929 to 1939, who played a vital role in the development and administration of Soviet librarianship and libraries.</p2>  
+			     <br>
+			</div>
 
-				<p>Europeana Full Text in Python - <a href="https://github.com/ian-nai/Europeana-Full-Text-in-Python" target="_blank">View on GitHub</a> </p>
-				<p2>I coded various Python scripts to assist with searching and downloading full text records via the Europeana APIs, including newspaper records. These scripts allow you to search records in Europeana, parse the JSON returned to obtain various metadata, and download full text if it's available. The code was featured on the Europeana site, and is hosted on my GitHub account at the link above.</p2>
+			  <div id="Raku" class="tab_type" style="display:none">
+				<br>
+				<h1>Raku</h1>
+                <br>
+				<p>Raku Lemmatize - <a href="https://github.com/ian-nai/raku_lemmatize/" target="_blank">View on GitHub</a></p>
+				<br>
+				<p2>A Raku module to lemmatize strings and lists, with built-in support for 24 languages. The package uses csv files containing predefined lemmas in a two column format, with the lemma on the left and its derivatives on the right. Any similarly formatted .csv can be used to run the code, allowing for easy use of custom lemma lists and additional languages.</p2> 
+			    <br>
+				<br>
+				<p>Raku Language Detection - <a href="https://github.com/ian-nai/raku_language_detection" target="_blank">View on GitHub</a></p>
+				<p2>A script to detect a text's language using stopwords in Raku. Simply pass a string to the check_string function to receive an output of detected languages and the language(s) with the highest percentage of detected words.</p2>
+			  </div>
 
-			  <br />
-				<br />
-				<br />
-
-	    <h1> Project Management and Design </h1>
-
-		    <p>Socialist Pamphlets at UT Austin Exhibit - <a href="https://spotlight-prod.lib.utexas.edu/spotlight/socialist-pamphlets">View Here</a></p>
+			  <div id="Project Management" class="tab_type" style="display:none">
+				<p>Socialist Pamphlets at UT Austin Exhibit - <a href="https://spotlight-prod.lib.utexas.edu/spotlight/socialist-pamphlets">View Here</a></p>
 				<p2>I supervised the digitization of rare and unique pamphlets held in the UT Austin collections, then created and wrote the text for the digital exhibit linked above. The exhibit is comprised of three sections, each focusing on pamphlets related to socialism and communism in, respectively, the USSR, France, and the United Kingdom.</p2>
 
-		    <p>Cold War Archive at UT Austin - <a href="https://scalar.usc.edu/works/the-prague-spring-archive-creees/index">View Here</a></p>
+		        <p>Cold War Archive at UT Austin - <a href="https://scalar.usc.edu/works/the-prague-spring-archive-creees/index">View Here</a></p>
 				<p2>I direct a large-scale and ongoing digital scholarship project for archival materials housed in the LBJ Presidential Library. Primary materials related to the Prague Spring and the broader Cold War are being digitized, having metadata created for them, and being made accessible via the UT Libraries’ open access, institutional repository. I created, designed, implemented, and publicized an online portal for the materials in Scalar.</p2>
-
-				<p>Nadezhda Krupskaya Online - <a href="https://github.com/ian-nai/krupskaya">View Here</a></p>
-				<p2>I created this site to provide an online home for English-language resources relating to Nadezhda Krupskaya, Deputy Education Commissar of the Soviet Union from 1929 to 1939, who played a vital role in the development and administration of Soviet librarianship and libraries.</p2>
 
 				<p>Soviet Pamphlets Archive - <a href="http://scalar.usc.edu/works/soviet-pamphlets-at-ut-austin/index">View Here</a></p>
 				<p2>I digitized, created metadata for, and created an Omeka site for a collection of rare and unique Soviet educational materials held by the University of Texas at Austin Libraries, ensuring the preservation and open access to the materials while making them more discoverable.</p2>
 
 		    <p>Digital Humanities Center at the Center for Russian, East European, and Eurasian Studies</p>
-		    <p2>Contribute technical, information science, and librarianship expertise to the development and implementation of the digital humanities space at UT Austin’s Center for Russian, East European, and Eurasian Studies. I teach workshops at the space, assist in cooperation between the space and the UT Libraries, and continue to provide expertise and support.</p2>
-	</body>
+		    <p2>I contributed technical, information science, and librarianship expertise to the development and implementation of the digital humanities space at UT Austin’s Center for Russian, East European, and Eurasian Studies. I taught workshops at the space, assisted in cooperation between the space and the UT Libraries, and provided technical and instructional expertise and support.</p2>
+	
+			  </div>
+			  
+			  
+			  <script>
+			  function openTab(tabName) {
+				var i;
+				var x = document.getElementsByClassName("tab_type");
+				for (i = 0; i < x.length; i++) {
+				  x[i].style.display = "none";  
+				}
+				document.getElementById(tabName).style.display = "block";  
+			  }
+			  </script>
+	
+		</body>
 </html>
