@@ -76,6 +76,26 @@ p {
 	font-family: "Helvetica", "Arial", sans-serif;
 }
 
+.button {
+	background-color: #555555;
+	border: none;
+	border-radius: 2px;
+	color: white;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-family: "Helvetica", "Arial", sans-serif;
+	margin: 4px 2px;
+	cursor: pointer;
+  }
+
+.button:hover {
+	background: #9c9595;
+}
+
+
 p2 {
 	display: inline-block;
 	margin-top: 0.1em;
@@ -128,10 +148,9 @@ ol, ul {
 
 .site_links .page { border-color: #8b0004; border-top-color: rgba(0, 153, 0, 0); }
 .site_links .page:hover, .site_links .page:focus { border-top-color: #8b0004; }
-.site_links .contact { border-color: #8b0004; border-top-color: rgba(0, 0, 153, 0); }
-.site_links .contact:hover, .site_links .contact:focus { border-top-color: #8b0004; }
-.site_links .info { border-color: #8b0004; border-top-color: rgba(153, 0, 0, 0); }
-.site_links .info:hover, .site_links .contact:focus { border-top-color: #8b0004; }
+.site_links .top_link { border-color: #8b0004; border-top-color: rgba(0, 0, 153, 0); }
+.site_links .top_link:hover, .site_links .contact:focus { border-top-color: #8b0004; }
+
 
 @media only screen and (max-width: 650px) {
 	.site_links li {
